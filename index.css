@@ -1,0 +1,89 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+#moviePage {
+  margin: 0 5%;
+  height: auto;
+  background-color: #DDD;
+  font-family: serif;
+  text-align: center;
+}
+
+nav {
+  margin-top: 5%;
+  height: auto;
+  font-family: serif;
+  text-align: center;
+}
+header {
+  font-size: 150%;
+  text-shadow: 1px 0px #333;
+}
+
+img {
+  width: 50%;
+}
+
+main {
+  margin: 5px;
+  padding: 1em;
+}
+
+#title {
+  font-size: 250%;
+}
+
+#description {
+  padding: 1em;
+}
+
+#audienceScore {
+  font-size: 150%;
+}
+
+#listSection {
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+  min-height: 200px;
+}
+
+#listSection * {
+  padding: .5em;
+}
+
+#cast {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+#cast * {
+  display: flex;
+  justify-content: space-between;
+}
+
+#reviews {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#mocha {
+  margin: 5%;
+  padding: 1em;
+  height: auto;
+  background-color: #DDD;
+  overflow-wrap: break-word;
+}
+#mocha ul {
+  list-style-type: none;
+}
